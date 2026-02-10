@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss';
+@config '../../../tailwind.config.js';
+
+@theme {
+  /* Orange Color */
+  --color-orange: #ea6a12;
+  --color-orange-light: #fdf8f5;
+  --color-orange-border: #f2a36d;
+
+  /* Green Color */
+  --color-green: #8bc652;
+  --color-active: #219342;
+  --color-green-light: rgba(139, 198, 82, 0.2);
+
+  /* Red Color */
+  --color-red: #eb262b;
+  --color-red-light: #fef2f2;
+
+  /* Gray Color */
+  --color-border: #e7e7e7;
+
+  /* Font Family */
+  --font-playfair: 'Playfair Display', serif;
+}

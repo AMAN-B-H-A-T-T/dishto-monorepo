@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/outlet"
+    },
+    {
+      "path": "./apps/franchise"
+    },
+    {
+      "path": "./libs/ui"
+    },
+    {
+      "path": "./libs/inventory"
+    },
+    {
+      "path": "./libs/api-client"
+    }
+  ]
+}

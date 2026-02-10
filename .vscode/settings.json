@@ -1,0 +1,6 @@
+{
+  "tailwindCSS.experimental.configFile": {
+    "apps/franchise/src/styles.css": ["apps/franchise/src/**", "libs/**"],
+    "apps/outlet/src/styles.css": "apps/outlet/src/**"
+  }
+}
