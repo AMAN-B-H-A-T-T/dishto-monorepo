@@ -26,7 +26,7 @@ export default defineConfig(() => ({
     },
   },
   build: {
-    outDir: './dist',
+    outDir: '../../dist/apps/franchise',
     emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {
