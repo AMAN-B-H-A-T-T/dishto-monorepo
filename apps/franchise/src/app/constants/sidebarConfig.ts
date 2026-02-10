@@ -97,40 +97,6 @@ export const franchiseSidebarConfig: SidebarConfig = {
             },
           ],
         },
-        {
-          icon: 'Boxes',
-          label: 'Collections-1',
-          key: 'categories-1',
-          children: [
-            {
-              icon: 'PlusCircle',
-              label: 'New Group',
-              path: PAGE_CATEGORIES_ADD.path,
-            },
-            {
-              icon: 'FolderArchive',
-              label: 'Vault',
-              path: PAGE_CATEGORIES_LIST.path,
-            },
-          ],
-        },
-        {
-          icon: 'Boxes',
-          label: 'Collections-2',
-          key: 'categories-2',
-          children: [
-            {
-              icon: 'PlusCircle',
-              label: 'New Group',
-              path: PAGE_CATEGORIES_ADD.path,
-            },
-            {
-              icon: 'FolderArchive',
-              label: 'Vault',
-              path: PAGE_CATEGORIES_LIST.path,
-            },
-          ],
-        },
       ],
     },
   ],
